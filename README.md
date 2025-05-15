@@ -17,29 +17,26 @@ This project implements a backtesting engine for the **Short Straddle options tr
 - Performance analytics: win rate, CAGR, Sharpe ratio, max drawdown.
 - Daily capital and equity curve tracking.
 - Export of results to CSV.
-
----
-
+- 
 📊 Output Metrics
 The script prints and exports:
 
-Daily trade logs: entry/exit prices, PnL, exit reason
-
-Cumulative equity curve
+Daily trade logs: 
+- entry/exit prices
+- PnL
+- exit reason
+  
 Key metrics:
-Win rate
-Total return
-CAGR
-Sharpe ratio
-Max drawdown
+- Win rate
+- Total return
+- CAGR
+- Sharpe ratio
+- Max drawdown
 
-Example output:
+Example Output:
 ==== Performance Summary ====
-Total Days     : 20
-Win Rate       : 60.00%
-Total Return   : ₹40,000.00 (4.00%)
-Max Drawdown   : ₹10,500.00 (1.05%)
-CAGR           : 48.32%
-Sharpe Ratio   : 1.72
-
-
+- Total Days     : 20
+- Total Return   : ₹40,000.00 (4.00%)
+- Max Drawdown   : ₹10,500.00 (1.05%)
+- CAGR           : 48.32%
+- Sharpe Ratio   : 1.72
